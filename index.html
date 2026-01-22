@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пульс Вселенной: Первый блок</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/i.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Блок 1: Главный экран с фиксированным фоном -->
+    <section id="block_1" class="block">
+        <div class="project-info">
+            <h1>Пульс Вселенной: От экзопланет до квантового горизонта</h1>
+            <h2>Номинация: астрономия и астрофизика</h2>
+            <!-- ... -->
+        </div>
+    </section>
+
+
+        <!-- Блок 2: Описание проекта -->
+    <section id="block_2" class="block black-background">
+        <div class="container">
+            <h2>О проекте «Пульс Вселенной»</h2>
+            <div class="text-content">
+                <p>Исследование космоса и астрономия являются одними из наиболее захватывающих, но при этом сложных для понимания направлений. Традиционные методы обучения часто не способны передать масштаб и динамику космических явлений.</p>
+                
+                <h3>Главная цель:</h3>
+                <p>Популяризация астрономии и наглядное объяснение фундаментальных космических законов через интерактивную игровую среду.</p>
+
+                <h3>Что внутри:</h3>
+                <ul>
+                    <li>7 уникальных уровней (от экзопланет до квантовых монстров).</li>
+                    <li>Псевдо 3д</li>
+                    <li>Более 2 000 строчек кода</li>
+                    <li>Гибридная 2D и 3D графика.</li>
+                    <li>Научно достоверные данные на базе исследований NASA.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Блок 3: Галерея (Карусель) -->
+    <section id="block_3" class="block">
+        <div class="container">
+            <h2>Скриншоты проекта</h2>
+            
+            <div class="carousel">
+                <!-- Кнопка Влево -->
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+
+                <!-- Сами картинки -->
+                <div class="slides">
+                    <div class="slide fade">
+                        <img src="images/1 картинка.png" alt="Скриншот 1">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/2 картинка.png" alt="Скриншот 2">
+                    </div>
+                </div>
+
+                <!-- Кнопка Вправо -->
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+        <!-- Блок 4: Видео трейлер (YouTube/Dzen) -->
+    <section id="block_4" class="block black-background">
+        <div class="container">
+            <h2>Видео-трейлер проекта</h2>
+            <div class="video-wrapper">
+                <!-- ВСТАВЬ СЮДА ТОЛЬКО ОДИН ТЕГ IFRAME С ПРАВИЛЬНОЙ ССЫЛКОЙ -->
+                <iframe 
+                    src="https://drive.google.com/file/d/1PrN-9eF72LBT4lgqfQRD01Tz9MdQFAW7/preview?usp=sharing" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- НОВЫЙ БЛОК 5: Кнопка на GitHub -->
+    <section id="block_5" class="block black-background">
+        <div class="container">
+            <h2>Хотите узнать больше о проекте или внести свой вклад? Исходный код доступен на GitHub!</h2>
+            <a href="https://github.com/?ysclid=mkpwx4kdj1605475247" target="_blank" class="github-button">
+                Перейти на GitHub
+            </a>
+        </div>
+    </section>
+
+
+    <!-- НОВЫЙ БЛОК 6:  -->
+    <footer id="block_6" class="block">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-col footer-col-main">
+                    <img src="images/nasa-logo.png" alt="NASA Logo" class="nasa-logo">
+                    <h2 class="nasa-title">Спасибо за просмотр лендинга!</h2>
+                    <p class="nasa-description">Переходите по ссылке и вы пройдете чудесную игру, узнаете много нового за гранью видимого спектра!</p>
+                    <a href="#" class="footer-link mission-link">О миссии</a>
+                    <a href="#" class="footer-link join-us-link">
+                        Присоединяйтесь к нам
+                        <span class="arrow-icon">&#8594;</span> <!-- Стрелка Unicode -->
+                    </a>
+                </div>
+
+                <div class="footer-col footer-nav-col">
+                    <h3>Дом</h3>
+                    <ul>
+                        <li><a href="#">Новости и события</a></li>
+                        <li><a href="#">Мультимедиа</a></li>
+                        <li><a href="#" class="nasa-plus">Арина+ <span class="live-tag">LIVE</span></a></li>
+                        <li><a href="#">Миссии</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col footer-nav-col">
+                    <h3>Люди в космосе</h3>
+                    <ul>
+                        <li><a href="#">Земля</a></li>
+                        <li><a href="#">Солнечная система</a></li>
+                        <li><a href="#">Вселенная</a></li>
+                        <li><a href="#">Наука</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col footer-nav-col">
+                    <h3>Космонавтика</h3>
+                    <ul>
+                        <li><a href="#">Технологии</a></li>
+                        <li><a href="#">Учебные ресурсы</a></li>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Language</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col footer-social-col">
+                    <h3>Следите за нами</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon-link"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#" class="social-icon-link"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                        <a href="#" class="social-icon-link"><img src="images/x-twitter-icon.png" alt="X/Twitter"></a>
+                        <a href="#" class="social-icon-link"><img src="images/youtube-icon.png" alt="YouTube"></a>
+                    </div>
+                    <a href="#" class="footer-link">Больше социальных аккаунтов</a>
+                    <a href="#" class="footer-link">Информационные бюллетени</a>
+                </div>
+            </div>
+
+            <hr class="footer-separator">
+
+            <div class="footer-bottom-links">
+                <a href="#">Карта сайта</a>
+                <a href="#">Для СМИ</a>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">FOIA</a>
+                <a href="#">No FEAR Act</a>
+                <a href="#">Офис генерального инспектора</a>
+                <a href="#">Бюджет и годовые отчёты</a>
+                <a href="#">Финансовые отчёты агентства</a>
+                <a href="#">Свяжитесь с NASA</a>
+                <a href="#">Доступность</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
